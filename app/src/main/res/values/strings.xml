@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="novo_jogo">Novo</string>
+    <string name="sair_jogo">Sair</string>
+    <string name="vez_android">Android</string>
+    <string name="vez_jogador">Jogador</string>
+    <string name="resultado_empate">Empate</string>
+    <string name="resultado_jogador">Você venceu</string>
+    <string name="resultado_android">Android venceu</string>
+</resources>
