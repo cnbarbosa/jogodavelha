@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/tiled_bg1"
     tools:context="cnbarbosa.apps.jogodavelha.GameActivity">
 
     <LinearLayout
@@ -26,7 +27,8 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:padding="5dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -36,7 +38,8 @@
                     android:id="@+id/informacao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Informação" />
+                    android:text="Informação"
+                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -47,7 +50,8 @@
                     android:id="@+id/pontosJogador"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pontos" />
+                    android:text="Pontos"
+                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -58,7 +62,8 @@
                     android:id="@+id/pontosAndroid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pontos" />
+                    android:text="Pontos"
+                    android:textStyle="bold" />
             </TableRow>
 
             <TableRow
@@ -69,7 +74,8 @@
                     android:id="@+id/pontosEmpate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pontos" />
+                    android:text="Pontos"
+                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -80,7 +86,8 @@
                     android:id="@+id/jogador"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/vez_jogador" />
+                    android:text="@string/vez_jogador"
+                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -91,7 +98,8 @@
                     android:id="@+id/android"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/vez_android" />
+                    android:text="@string/vez_android"
+                    android:textStyle="bold" />
             </TableRow>
 
         </TableLayout>
@@ -201,7 +209,9 @@
                     android:id="@+id/novoJogo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/novo_jogo" />
+                    android:background="@drawable/button_shape"
+                    android:text="@string/novo_jogo"
+                    android:textStyle="bold" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -212,7 +222,9 @@
                     android:id="@+id/sairJogo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sair_jogo" />
+                    android:background="@drawable/button_shape"
+                    android:text="@string/sair_jogo"
+                    android:textStyle="bold" />
             </TableRow>
         </TableLayout>
 
